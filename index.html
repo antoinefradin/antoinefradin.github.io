@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- Unicons by Iconscout : https://iconscout.com/unicons/explore/line  -->
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  
+  <!--=========================HEADER=========================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Antoine</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i> Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i> About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-alt nav__icon"></i> Skills
+            </a>
+          </li>
+          <!--<li class="nav__item">
+            <a href="#services" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i> Services
+            </a>
+          </li>-->
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i> Portfolio
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i> Contactme
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+
+      <div class="nav_btns">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="main">
+    <!--=========================HOME=========================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social"> <!--social icons-->
+            <a href="https://www.linkedin.com/in/antoine-fradin/" target="_blank" class="home__social-icon"> <!--"target" for a new web page-->
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://github.com/antoinefradin" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt"></i>
+            </a>
+            <a href="https://twitter.com/thegolfdata" target="_blank" class="home__social-icon">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+          </div>
+
+          <div class="home__img"> <!--blob+photo-->
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0" mask-type="alpha"> <!--blob shape-->
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+              </mask>
+              <g mask="url(#mask0)"> <!--grouped object-->
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+    
+                <image class="home__blob-img" x='12' y='18' xlink:href="img/photo-perfil.png">
+
+              </g>
+            </svg>
+          </div>
+
+          <div class="home__data"> <!--title+description-->
+            <h1 class="home__title">Hi, I'm Antoine</h1>
+            <h3 class="home__subtitle">Data Scientist</h3>
+            <p class="home__description">High level experience in data science and AI. </p>
+            <a href="#contact" class="button button--flex">
+              Contact Me <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+
+          <!--<div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a> 
+          </div>-->
+
+        </div>
+      </div>
+    </section>
+
+    <!--=========================ABOUT=========================-->
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
+      <div class="about__container container grid">
+        <img src="img/photo-perfil.png" alt="" class="about__img">
+        <div class="about__data">
+          <p class="about__description">
+            Data Scientist, with extensive knowledge and years of experience,
+            working in AI and Data Science field, delivering quality work.
+          </p>
+          <div class="about__info">
+            <div>
+              <span class="about__info-title">4+</span>
+              <span class="about__info-name">Years <br> experience</span>
+            </div>
+            <div>
+              <span class="about__info-title">10+</span>
+              <span class="about__info-name">Completed <br> projects</span>
+            </div>
+            <div>
+              <span class="about__info-title">4+</span>
+              <span class="about__info-name">Companies <br> worked</span>
+            </div>
+          </div>
+
+          <div class="about__buttons">
+            <a href="#" class="button button--flex">
+              Download CV<i class="uil uil-download-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=========================CONTACTME=========================--> <!--Repsonsive Mobile-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portfolio</h2>
+      <span class="section__subtitle">My projects</span>
+      <div class="list-card">
+        <div class="card" id="card-1">
+            <img src="https://source.unsplash.com/Nmh-pEBRt2Y/300x300" class="card__image" alt="brown couch" />
+            <!--https://source.unsplash.com/Nmh-pEBRt2Y/300x300-->
+            
+            <div class="card__content">
+              <time datetime="2020-03-20" class="card__date">20 Mars 2020</time>
+              <span class="card__title">Lorem ipsum dolor sit amet. Qui placeat veniam sit ...<span>
+            </div>
+        </div>
+        <div class="card" id="card-2">
+            <img src="https://source.unsplash.com/XJXWbfSo2f0/300x300" class="card__image" alt="brown couch" />
+            <!--https://source.unsplash.com/XJXWbfSo2f0/300x300-->
+            <div class="card__content">
+              <time datetime="2020-03-26" class="card__date">20 Mars 2020</time>
+              <span class="card__title">Lorem ipsum dolor sit amet. Qui placeat veniam sit ...<span>
+            </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <!--=========================CONTACTME=========================-->
+    <section class="concact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
+
+      <div class="contact__container container grid">
+        <div class="contact__infos">
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__subtitle">999-77-666</span>
+            </div>
+          </div>
+      
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">frd.antoine(at)xxx.fr</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">France - Paris ...</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="" class="contact__label">Name</label>
+              <input type="text" class="contact__input">
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Email</label>
+              <input type="email" class="contact__input">
+            </div>
+          </div>
+          <div class="contact__content">
+            <label for="" class="contact__label">Project</label>
+            <input type="text" class="contact__input">
+          </div>
+          <div class="contact__content">
+            <label for="" class="contact__label">Message</label>
+            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+          </div>
+
+          <div>
+            <a href="#" class="button button--flex">
+              Send Message
+              <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!--=========================FOOTER=========================-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <!--Title-->
+        <div> 
+          <h1 class="footer__title">Antoine</h1>
+          <span class="footer__subtitle">Data scientist</span>
+        </div>
+
+        <!--Links-->
+        <ul class="footer__links"> 
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contactme</a>
+          </li>
+        </ul>
+
+        <!--Socials-->
+        <div class="footer__socials"> 
+          <a href="#" target="_blank" class="footer__social">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+          <a href="#" target="_blank" class="footer__social">
+            <i class="uil uil-instagram"></i>
+          </a>
+          <a href="#" target="_blank" class="footer__social">
+            <i class="uil uil-twitter-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!--Copyrights-->
+      <p class="footer__copy">Made with 💙 by &#169; AntoineFrd - All right reserved</p> 
+    </div>
+  </footer>
+
+
+  <!--=========================MAIN JS=========================-->
+  <script src="main.js"></script>
+
+
+
+</body>
+</html>
+
