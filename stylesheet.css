@@ -405,7 +405,8 @@ header{
 /*=========================BLOG CARDS=========================*/
 .list-card {
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
+  flex-flow: row wrap; /*responsive flex display*/
   justify-content: center;
   align-items: center;
   width: auto; /*100vw;*/
@@ -414,7 +415,8 @@ header{
   margin: 1rem;
 }
 .card {
-  max-width: 460px;
+  max-width: 360px;
+  min-width: 260px;
   max-height: 260px;
   border-radius: var(--border-radius-primary);
   box-shadow: 1.25rem 1.25rem 5rem rgba(0, 0, 0, 0.1);
@@ -448,7 +450,7 @@ header{
   --color-highlight-primary: #ceff7e;
   --color-highlight-secondary: #a8dab4;
   font-family: var(--body-font);
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   line-height: var(--line-height-title);
   /*color: var(--color-text);*/
   box-decoration-break: clone;
@@ -459,9 +461,16 @@ header{
   padding: 0 4px;
   margin-left: -4px;
 }
-#card-2 .card__title {
+.card__title #card-2 , .card__title #card-3 , .card__title #card-4 {
   --color-highlight-primary: #aad0fc;
   --color-highlight-secondary: #a2b1da;
+  background-image: linear-gradient(90deg, var(--color-highlight-primary), var(--color-highlight-secondary));
+}
+#card-2 .card__title, #card-3 .card__title, #card-4 .card__title{
+  
+  --color-highlight-primary: #aad0fc;
+  --color-highlight-secondary: #a2b1da;
+  background-image: linear-gradient(90deg, var(--color-highlight-primary), var(--color-highlight-secondary));
 }
 
 .portfolio_button{
@@ -620,7 +629,7 @@ textarea {
     width: 180px;
   }
   .card{
-    padding: 1rem;
+    padding: 0.75rem;
   }
   .card__title {
     font-family: var(--body-font);
@@ -628,6 +637,20 @@ textarea {
     line-height: 0.25; /*1.4*/
   }
 }
+
+@media screen and (max-width: 467px) {
+  .card{
+    padding: 0.75rem;
+  }
+  .card__title {
+    font-family: var(--body-font);
+    font-size: 0.9rem;
+    line-height: 0.25; /*1.4*/
+  }
+
+}
+
+
 /**For medium devices**/
 @media screen and (min-width: 568px) {
   .home__content{
@@ -770,8 +793,8 @@ textarea {
  .card {
     flex-direction: row;
     align-items: center;
-    margin: 2.5rem;
-    padding: 1.5rem;
+    margin: 1.5rem;
+    padding: 1.25rem;
   }
 
   .contact__form{
