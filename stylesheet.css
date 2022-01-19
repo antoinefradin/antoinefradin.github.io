@@ -282,7 +282,7 @@ header{
 }
 
 .home__blob-img{
-  width: 170px;
+  width: 150px;
 }
 
 .home__data{
@@ -302,6 +302,7 @@ header{
 
 .home__description{
   margin-bottom: var(--mb-2);
+  padding-right: 0.5rem;
 }
 
 /* Home Scroll*/
