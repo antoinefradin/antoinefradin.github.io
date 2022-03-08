@@ -4,8 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- Unicons by Iconscout : https://iconscout.com/unicons/explore/line  -->
-  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/stylesheet.css') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/stylesheet-portofolio.css') }}">
+  <link rel="stylesheet" href="static/css/stylesheet.css">
+  <link rel="stylesheet" href="static/css/stylesheet-portofolio.css">
 </head>
 <body>
   
@@ -17,12 +17,12 @@
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list grid">
           <li class="nav__item">
-            <a href="{{ url_for('home') }}" class="nav__link">
+            <a href="index.html" class="nav__link">
               <i class="uil uil-estate nav__icon"></i> Home
             </a>
           </li>
           <li class="nav__item">
-            <a href="{{ url_for('home') }}" class="nav__link">
+            <a href="index.html" class="nav__link">
               <i class="uil uil-user nav__icon"></i> About
             </a>
           </li>
@@ -37,12 +37,12 @@
             </a>
           </li>-->
           <li class="nav__item">
-            <a href="{{ url_for('portfolio') }}" class="nav__link active-link">
+            <a href="index.html" class="nav__link active-link">
               <i class="uil uil-scenery nav__icon"></i> Portfolio
             </a>
           </li>
           <li class="nav__item">
-            <a href="{{ url_for('home') }}" class="nav__link">
+            <a href="index.html" class="nav__link">
               <i class="uil uil-message nav__icon"></i> Contactme
             </a>
           </li>
@@ -249,7 +249,7 @@
 
 
   <!--=========================MAIN JS=========================-->
-  <script src="{{ url_for('static', filename= 'js/main.js') }}"></script>
+  <script src="static/js/main.js"></script>
 
 
 

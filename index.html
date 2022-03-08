@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- Unicons by Iconscout : https://iconscout.com/unicons/explore/line  -->
-  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/stylesheet.css') }}">
+  <link rel="stylesheet" href="static/css/stylesheet.css">
 </head>
 <body>
   
@@ -16,7 +16,7 @@
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list grid">
           <li class="nav__item">
-            <a href="{{ url_for('home') }}" class="nav__link active-link">
+            <a href="index.html" class="nav__link active-link">
               <i class="uil uil-estate nav__icon"></i> Home
             </a>
           </li>
@@ -36,7 +36,7 @@
             </a>
           </li>-->
           <li class="nav__item">
-            <a href="{{ url_for('portfolio') }}" class="nav__link">
+            <a href="portfolio.html" class="nav__link">
               <i class="uil uil-scenery nav__icon"></i> Portfolio
             </a>
           </li>
@@ -89,7 +89,7 @@
                   129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                   -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
     
-                <image class="home__blob-img" x='28' y='-26' xlink:href="{{ url_for('static', filename= 'img/PhotoCV-removebg.png') }}">
+                <image class="home__blob-img" x='28' y='-26' xlink:href="static/img/photo.png">
 
               </g>
             </svg>
@@ -121,7 +121,7 @@
       <h2 class="section__title">About Me</h2>
       <span class="section__subtitle">My introduction</span>
       <div class="about__container container grid">
-        <img src="{{ url_for('static', filename= 'img/PhotoCV-removebg.png') }}" alt="" class="about__img">
+        <img src="static/img/photo.png" alt="" class="about__img">
         <div class="about__data">
           <p class="about__description">
             Data Scientist, with extensive knowledge and years of experience,
@@ -306,7 +306,7 @@
 
 
   <!--=========================MAIN JS=========================-->
-  <script src="{{ url_for('static', filename= 'js/main.js') }}"></script>
+  <script src="static/js/main.js"></script>
 
 
 
