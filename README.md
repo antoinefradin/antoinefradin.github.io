@@ -1,14 +1,22 @@
-# **Responsive HTML/CSS/JS Portfolio Website**
+# **Responsive Python Flask/HTML/CSS/JS Portfolio Website**
 
 **Minimal responsive portfolio website design**<br />
-The best way to learn how to create this layout is to try it ourselves.  
-So let's try it ! 💥<br />
-
-This project was made for my personal portfolio website.<br />  
+This is my portfolio.
 
 # 🚀 Starting
 
-To start the project, just open the file `index.html` in your preferred browser.<br />
+To start the project, run following commands in your terminal to run this flask application:
+
+git clone #####
+python3.6 -m venv #####
+cd #####
+source bin/activate
+pip install -r requirements.txt
+python app.py
+
+Navigate to http://127.0.0.1:5000 in a browser and that's it! 
+Don't forget to type your Gmail user name and password in the appropriate text files.
+<br />
 
 
 ## 💻 Web Version 
@@ -29,7 +37,8 @@ To start the project, just open the file `index.html` in your preferred browser.
     -->
 
 ### **Sources** 
-- _https://github.com/bedimcode/responsive-portfolio-website-Alexa_  
+- _https://github.com/bedimcode/responsive-portfolio-website-Alexa_ 
+- _https://github.com/sinisabubonja/pizzabubonjas_ 
   <br />
   <br />
 ---
