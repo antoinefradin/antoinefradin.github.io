@@ -12,12 +12,12 @@ To start the project, just open the file `index.html` in your preferred browser.
 
 ## 💻 Web Version 
 <p align="center">
-    <img src="https://github.com/antoinefradin/Reponsive-Blog-Cards-HTML-CSS/blob/main/static/img/Mockup_web.JPG" alt="web"/>
+    <img src="https://github.com/antoinefradin/antoinefradin.github.io/blob/main/static/img/Mockup_web.JPG" alt="web"/>
 </p>
 
 ## 📱 Mobile Version
 <p align="center">
-    <img src="https://github.com/antoinefradin/Reponsive-Blog-Cards-HTML-CSS/blob/main/static/img/Mockup_mobile.JPG" alt="web"/>
+    <img src="https://github.com/antoinefradin/antoinefradin.github.io/blob/main/static/img/Mockup_mobile.JPG" alt="web"/>
 </p>
 
 <!--### Go Futher
